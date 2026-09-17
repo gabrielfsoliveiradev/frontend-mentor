@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
 body{
   background-color: hsl(47, 88%, 63%);
+  font-family: "Figtree";
+  color: hsl(0, 0%, 7%);
 }
 
 main{
@@ -13,11 +17,53 @@ main{
   display: flex;
   padding: 24px;
   flex-direction: column;
-  width: fit-content;
+  width: 384px;
   height: fit-content;
   background-color: white;
+  gap: 12px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 0px black;
 }
 
 #theme{
-  width: 336px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+}
+
+span{
+  background-color: hsl(47, 88%, 63%);
+  width: fit-content;
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-weight: 800;
+  font-size: 14px;
+}
+
+#published-data{
+  font-size: 14px;
+}
+
+h1{
+  font-size: 24px;
+}
+
+#description{
+  font-size: 16px;
+  color: hsl(0, 0%, 42%);
+}
+
+#author{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+
+#author img{
+  width: 32px;
+}
+
+#author p{
+  font-weight: 900;
+  font-size: 14px;
 }
